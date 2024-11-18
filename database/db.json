@@ -1,0 +1,40 @@
+{
+    "productos": [
+        {
+            "id": 1,
+            "name": "Dreamcatcher - Versus Villains",
+            "price": "20",
+            "image": "https://i.discogs.com/dzmRLfMdWEEgvJ-Jlf3dlkMdinhvhBDq3LF1q9aax3U/rs:fit/g:sm/q:90/h:600/w:423/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5MDc4/MzgzLTE3MDE0NTA2/MTEtNDI1MC5wbmc.jpeg"
+        },
+        {
+            "id": 2,
+            "name": "Blackpink - Born Pink",
+            "price": "25",
+            "image": "https://i.discogs.com/hg1zZ5I-q1hgtzqsydhLtKz8nguUPzubBswRqu-Q9Ok/rs:fit/g:sm/q:90/h:600/w:458/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0NTk2/MDkzLTE2NjM4NjYx/MzAtNDk5My5wbmc.jpeg"
+        },
+        {
+            "id": 3,
+            "name": "BTS - The Most Beautiful Moment in Life Pt. 1",
+            "price": "35",
+            "image": "https://i.discogs.com/j9yPcmAE_b1hSqOjmJOeKy9DgQXvaJnCwfxIthFN4FM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNDQ3/NDA4LTE1NTQzOTAx/OTUtOTU5Ni5qcGVn.jpeg"
+        },
+        {
+            "id": 4,
+            "name": "Seventeen - Love & Letter",
+            "price": "18",
+            "image": "https://i.discogs.com/Riimkyyq0qr-yaiqBFJN5IQfad8qODM-f0hOu8UEXHQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3Mjgz/ODcyLTE2ODU4Nzgx/MDYtMzI5OS5qcGVn.jpeg"
+        },
+        {
+            "id": 5,
+            "name": "Ateez - Zero: Fever Part. 1",
+            "price": "21",
+            "image": "https://i.discogs.com/C0L5ZSNRcON9vPPd_oSLdjBv0GAMAdbjdYCUrqBgF9o/rs:fit/g:sm/q:90/h:485/w:353/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NzUz/NDQ0LTE2NjQ0NjAz/NjktMjcyNC5qcGVn.jpeg"
+        },
+        {
+            "id": 6,
+            "name": "Mamamoo - Red Moon",
+            "price": "35",
+            "image": "https://i.discogs.com/tzPyJKem50hvaaNI66LdJBubgUm-kiN_kZr8Qaotk8w/rs:fit/g:sm/q:90/h:600/w:442/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNDYw/NzQ1LTE1MzY2MzM2/NjQtNTA5MC5qcGVn.jpeg"
+        }
+    ]
+}

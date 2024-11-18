@@ -4,7 +4,95 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AluraGeek Challenge</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icon -->
+    <script
+      src="https://kit.fontawesome.com/4c59d6196b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <img src="img/Header.png" alt="Logo AluraGeek" />
+    </header>
+
+    <main class="main-contenedor">
+      <section class="container__productos">
+        <h1>MIS ÁLBUMES</h1>
+        <div class="productos-box">
+          <div data-product class="container__productos-grid">
+            <p class="texto-oculto" hidden>No se han agregado productos</p>
+            <!-- <div class="producto-card">
+              <img
+                class="producto-img"
+                src="./img/product_img.png"
+                alt="imagen de producto"
+              />
+              <p>Nombre</p>
+              <div class="producto-footer">
+                <span class="producto-precio">
+                  <p>$</p>
+                  <p>000.000,00</p>
+                </span>
+                <button class="btn_trash" data id="9">
+                  <i class="fa-solid fa-trash"></i>
+                </button>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección para agregar productos -->
+      <section class="contenedor__form">
+        <div class="form-contenedor" data-form>
+          <h2>Agregar producto:</h2>
+          <form>
+            <input
+              data-name
+              class="form__campo"
+              type="text"
+              placeholder="nombre del album..."
+              required
+            />
+            <input
+              data-price
+              class="form__campo"
+              type="number"
+              placeholder="precio..."
+              required
+            />
+            <input
+              data-image
+              class="form__campo"
+              type="imagen"
+              placeholder="url de la imagen del álbum..."
+              required
+            />
+            <span data-message class="mensajeError"></span>
+            <div class="btn-contenedor">
+              <button type="submit" class="btn-submit" id="btn">Enviar</button>
+              <button type="reset" class="btn-reset" id="btn">Limpiar</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <p class="copyright">&copy; copyright 2024 Desarrollado por @clauDev__</p>
+      <a href="https://github.com/claudiamendez7" rel="" target="_blank">
+        <img src="img/github.svg" alt="logo github" class="git" />
+      </a>
+    </footer>
+    <!-- Scripts -->
+    <script type="module" src="js/controllers/main.js"></script>
+  </body>
 </html>
